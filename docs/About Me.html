@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Profile
+        </title>
+        <style>
+        body{
+            background-color:rgb(17, 124, 74);
+        }
+        #nav-container{
+            position:absolute;
+            background-color:rgb(255, 255, 255);
+            display:flex;
+            height:90px;
+            width:100%;
+        }#nav{
+            display:flex;
+            flex-flow:row wrap;
+            justify-content:space-evenly;
+            margin-left:450px;
+            margin-top:30px;           
+        } nav >div{
+            margin:10px;
+            padding:10px;
+        }#button {
+            display:flex;
+            flex-direction:row;
+            flex-flow:row wrap;
+        }#button [type="button"] {
+            background-color:inherit;
+            color:rgb(0, 0, 0);
+            border:none;
+            font-size:25px;
+            font-family:Lucida Sans;
+        } #button [type="button"]:hover{
+                background-color:rgb(38, 39, 38);
+                color:white;
+        }#logo-nav{
+                float:left;
+                clear:left;
+                margin-left:55px;
+                margin-top:8px;
+            }#flex-box-profile{
+                position:absolute;
+                background-color:white;
+                border: 5px solid rgb(17, 124, 74);
+               top: 150px;
+               left: 130px;px;
+                width:80%;
+                height: 500px;
+                padding:0px;
+            }#about-me{
+                font-size:15px;
+                font-family:courier new;
+                color:black;
+                text-align:center;
+                margin-top: 50px; 
+            }#general-details{
+                font-size:13px;
+                font-family:Courier New;
+                color:black;
+                margin-top: 50px;
+                margin-left: 100px;
+            }#img1 {
+            float:left;
+            clear:left;
+            text-align:right;
+            margin-right:0px;
+            margin-top: 145.5px;
+        }#img1:hover + #img2{
+            visibility:visible;
+        }.details{
+                position:absolute;
+                top: 700px;
+                right: 500px;
+                 font-size:20px;
+                 font-family: Courier New;
+                 color: white;
+        }.details:hover + #general{
+            visibility:visible;
+        }.details:hover{color: rgb(38, 39, 38);
+        }#img2 {
+            position:absolute;
+            top: 250px;
+            left:0px;
+            visibility:hidden;
+        }#general{
+            position:absolute;
+            top: 800px;
+            margin-right:175px;
+            margin-left:175px;
+            font-size:20px;
+            font-family:Courier New;
+            color:white;
+            text-align:justify;
+            visibility:hidden;
+        }
+                </style>
+    </head>
+    <body>
+        <div id="nav-container">
+            <div id="logo-nav"><a href="#"><img src="logo.png" alt="logo.png" width="325" height="80"></a></div>
+             <div id="nav">
+                <div id="button">
+                    <nav>
+                        <a href="Delgado-AssessmentAct2.html"><button type="button"><div>Home</div></button></a> 
+                        <a href="Interests.html"><button type="button"><div>Interests</div></button></a>
+                        <a href="Educational Background.html"><button type="button"><div>Education</div></button></a>
+                    </nav>
+                 </div>
+             </div>
+         </div>
+
+             <div id="flex-box-profile">
+                 <div id="about-me"><h1><b>Rudini's Profile</b></h1></div>
+                 <div id="img1"><img src="download (2).png" alt="img1.png" width="275" height="250"></div>
+                 <div id="img2"><img src="download.png" alt="img2.png" width="275" height="250"></div>
+                 <div id="general-details">
+                    <h1>First name: <u>Sean Rudini Immanuel</u> </h1>
+                    <h1>Middle name: <u>Rosales</u> </h1>
+                    <h1>Surname: <u>Delgado</u></h1>
+                    <h1>Age: <u>18</u></h1>
+                    <h1>Siblings: <u>3</u></h1>
+                    <h1>Sibling position: <u>Eldest child</u></h1>
+                    <h1>Parent's Occupation: <u>Professional Teacher</u></h1>
+                </div>
+             </div>
+             <div class="details"><h1>--->ABOUT ME<---</h1></div>
+             <div id="general">
+                 <h2>I'm an aspiring software developer and I'm also interested in web development. In addition, I'm planning to take AI development path in my later years in college as a Computer Science student. I am currently learning C, C++, CSS, and Javascript. I do like kermit the frog though ;></h2>
+                </div>
+    </body>
+    </html>
