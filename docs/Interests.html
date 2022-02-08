@@ -5,6 +5,12 @@
         <style>
             body{
                 background-color:rgb(17, 124, 74);
+                position:absolute;
+                top:0;
+                left:0;
+                right:0;
+                bottom:0;
+                overflow:auto;
             }
             #nav-container{
                 position:absolute;
@@ -46,14 +52,26 @@
                top: 150px;
                left: 130px;px;
                 width:80%;
-                height: 500px;
+                height: 550px;
                 padding:0px;
             }#Interests{
-                font-size:30px;
+                font-size:20px;
                 font-family:courier new;
                 color:black;
                 text-align:center;
                 margin-top: 50px; 
+            }#Interests-content{
+                font-size: 13px;
+                color:black;
+                font-family: Courier New;
+                margin:50px;
+                text-align: justify;
+            }#img2{
+                float:left;
+                clear:left;
+            }#img3{
+                float:right;
+                clear:right;
             }
         </style>
     </head>
@@ -64,7 +82,7 @@
                 <div id="button">
                     <nav>
                         <a href="Delgado-AssessmentAct2.html"><button type="button"><div>Home</div></button></a> 
-                        <a href="#"><button type="button"><div>Interests</div></button></a>
+                        <a href="Educational Background.html"><button type="button"><div>Education</div></button></a>
                         <a href="About Me.html"><button type="button"><div>About me</div></button></a>
                     </nav>
                  </div>
@@ -73,6 +91,9 @@
 
          <div id="flex-box-profile">
             <div id="Interests"><h1><b>Interests</b></h1></div>
+            <div id="Interests-content"><h2>My interests suits logic and analysis which develops my skill in those fields. In terms of sports, I'm more into playing chess and won some competitions in my junior high school years, but I also like playing basketball. I am interested in web development and software development. Moreover, in terms of profits, I have an urge to go for stock tradings and cryptocurrency, hence, I'm broke and still trying to find a way to pursue those interests.</h2></div>
+            <div id="img2"><img src="images (1).png" alt="img2.jpg" width="300" height="200"></div>
+            <div id="img3"><img src="images (1).jpg" alt="img3.jpg" width="275" height="200"></div>
         </div>
     </body>
     </html>
